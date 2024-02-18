@@ -1,0 +1,18 @@
+
+<div class="juegos_destacados">
+  <h2>Top de juegos </h2>
+  <div class="portada">
+    @for(juego of juegos.results; track $index){
+      <div class="portada_juego">
+        <h4>Nombre: {{ juego.name }}</h4>
+        <!-- <p>Fecha de lanzamiento: {{ juego.released }}</p> -->
+       <img [src]="juego.background_image" alt="Imagen de {{ juego.name }}"> 
+    </div>
+    }
+
+  </div>
+ 
+</div>
+
+
+

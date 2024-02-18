@@ -1,0 +1,41 @@
+
+.juegos_destacados{
+    text-align: center;
+    background: rgb(27, 26, 26);
+    height: 100vh;
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+    flex-direction: column; 
+}
+.juegos_destacados h2{
+    margin-top:1rem;
+    font-size: 3rem;
+    color: white;
+}
+.portada{
+    column-count: 4;
+    column-gap: 3vw;
+}
+.portada_juego{
+    width: 22vw; 
+    text-align: center;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-bottom: 30px;
+    background-color: rgba(247, 220, 179, 0.13);
+    transition: box-shadow 0.3s ease;
+    transition: transform 0.3s ease;
+    color: white;
+}
+.
+.portada_juego:hover{
+    cursor: pointer;
+    box-shadow: 0 0 30px rgba(185, 125, 125, 0.5); /* Se aplica el sombreado al pasar el cursor */
+    transform: rotate(1deg); /* Rotamos el div al pasar el cursor */
+}
+img{
+    width: 20vw;
+    height: 28vh;
+    border-radius: 1rem;
+}
