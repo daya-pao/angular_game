@@ -19,8 +19,9 @@
 }
 .portada_juego{
     width: 22vw; 
+    font-size: 1rem;
     text-align: center;
-    padding: 1rem;
+    padding: 0.5rem;
     border-radius: 1rem;
     margin-bottom: 30px;
     background-color: rgba(247, 220, 179, 0.13);
@@ -28,7 +29,19 @@
     transition: transform 0.3s ease;
     color: white;
 }
-.
+.comprar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bold;
+}
+.comprar a{
+    border: 1px solid orangered;
+    padding: 0.5rem;
+    border-radius: 0.6rem;
+    text-decoration: none;
+    color: white;
+}
 .portada_juego:hover{
     cursor: pointer;
     box-shadow: 0 0 30px rgba(185, 125, 125, 0.5); /* Se aplica el sombreado al pasar el cursor */
@@ -36,6 +49,6 @@
 }
 img{
     width: 20vw;
-    height: 28vh;
+    height: 24vh;
     border-radius: 1rem;
 }

@@ -26,7 +26,9 @@ export class JuegosComponent implements OnInit {
     this.http.get('https://api.rawg.io/api/games?key=3fe78f10d5af4b27899d5cbada1375ce')
       .subscribe((juegos: any) => {
         this.juegos = juegos;
+        console.log(juegos);
       });
+
   }
 
 
