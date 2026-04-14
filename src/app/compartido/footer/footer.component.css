@@ -1,2 +1,62 @@
+/* Estilos para el Footer Gamer */
+.footer {
+  background-color: #0b0e14; /* Fondo oscuro profundo */
+  color: #e0e0e0;
+  padding: 60px 0 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-top: 3px solid #00f2ff; /* Línea de neón superior */
+  box-shadow: 0px -10px 20px rgba(0, 242, 255, 0.1);
+}
 
+.footer h5 {
+  color: #00f2ff; /* Color cian neón */
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  margin-bottom: 20px;
+  text-shadow: 0 0 8px rgba(0, 242, 255, 0.5);
+}
+
+.footer p {
+  line-height: 1.6;
+  color: #adadad;
+}
+
+/* Estilo de la lista de enlaces */
+.footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer ul li {
+  margin-bottom: 10px;
+}
+
+.footer ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+.footer ul li a:hover {
+  color: #ff00e5; /* Cambio a rosa neón al pasar el mouse */
+  transform: translateX(8px); /* Pequeño salto a la derecha */
+  text-shadow: 0 0 10px #ff00e5;
+}
+
+/* Línea divisoria personalizada */
+.footer hr {
+  border: 0;
+  height: 1px;
+  background: linear-gradient(to right, transparent, #333, transparent);
+  margin: 40px 0 20px;
+}
+
+/* Copyright */
+.footer .col-md-12 p {
+  text-align: center;
+  font-size: 0.85rem;
+  color: #666;
+}
   
