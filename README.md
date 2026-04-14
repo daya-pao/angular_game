@@ -1,27 +1,39 @@
-# ExampleRutas
+🎮 **Gaming Explorer - Angular Routing Practice**
+¡Bienvenido a Gaming Explorer! Este proyecto nació como un reto técnico para profundizar en el manejo de rutas, navegación y experiencia de usuario (UX) utilizando Angular 17.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.1.
+🚀 **Objetivo del Proyecto**
+El enfoque principal fue dominar el sistema de navegación de Angular, asegurando una arquitectura limpia y un manejo de errores robusto, especialmente mediante la implementación de una página de error 404 personalizada.
 
-## Development server
+🛠️ **Tecnologías Utilizadas**
+**Framework:** Angular 17 (Standalone Components)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+**Estilos:** CSS3 Moderno (Flexbox & CSS Grid)
 
-## Code scaffolding
+**Diseño:** Totalmente Responsivo (Mobile First)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+**Herramientas:** Angular Router para la gestión de navegación.
 
-## Build
+🌟 **Características Principales**
+Manejo de Rutas (Wildcard): Implementación de rutas inteligentes para capturar errores de navegación y redirigir al usuario a una página "Game Over" (404).
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Interfaz Gaming: Diseño vibrante con estética oscura y tonos orangered diseñado para entusiastas de los videojuegos.
 
-## Running unit tests
+Componentes Dinámicos: Uso de @for para renderizar colecciones de juegos de manera eficiente.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Layout Responsivo: Adaptación completa para dispositivos móviles, tablets y escritorio.
 
-## Running end-to-end tests
+📸 DEMO PREVIA 
+<img width="1283" height="613" alt="Pgamer" src="https://github.com/user-attachments/assets/87f6ec46-b7ef-4635-b6de-f5d14a2f4d8b" />
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+<img width="1276" height="636" alt="404" src="https://github.com/user-attachments/assets/ba0d94fe-5a9e-41e8-a1b1-494018f5a72f" />
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+🧠 **Aprendizajes Clave**
+Durante el desarrollo de esta práctica, perfeccioné:
+
+La configuración de app.routes.ts para rutas anidadas y comodines.
+
+El uso de unidades relativas (vw, vh, rem) combinadas con Media Queries para un diseño profesional.
+
+La lógica de paso de datos entre componentes en Angular.
